@@ -1,0 +1,323 @@
+@import '../assets/fonts.css';
+
+body
+{
+    background: #0a0a0a;
+}
+.tv
+{   
+    width: 100%;
+    height: 100vh;
+    background:url("https://i.yapx.ru/EdqTK.gif")  no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+    text-align: end;
+    padding-top: 55vh;
+    display: block;
+}
+.tagline
+{
+  font-size: 30px;
+  color: red;
+}
+.but
+{
+  border: 0px;
+  font-size: 14px;
+  font-family: 'PressStart2P-Regular', Courier, monospace;
+  color: #0a0a0a;
+  margin-right: 18vw;
+
+  line-height: 50px;
+  border-radius: 90px;
+  height: 60px;
+  width: 350px;
+  
+  background-color: #00ffff;
+}
+@media(max-width: 1000px)
+{
+.but
+{
+  border: 0px;
+  font-size: 7px;
+  font-family: 'PressStart2P-Regular', Courier, monospace;
+  color: #0a0a0a;
+  margin-right: 10vw;
+
+  line-height: 30px;
+  border-radius: 90px;
+  height: 40px;
+  width: 200px;
+
+}
+}
+
+
+
+.but:hover
+{
+  
+  color: #0a0a0a;
+  text-decoration: none;
+  box-shadow: 0 0 20px #00ffff;
+}
+.but_down
+{
+  position: relative;
+  right: 50vw;
+  top: 200px;
+  width: 60px;
+  height: 60px;
+  background-color: #00ffff;
+  border-radius: 90px;
+  
+}
+li
+{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button 
+{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    font: normal 20px/normal "Neon_2", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  .button_1
+  {
+    color: #ffffff;
+  }
+  .button_2
+  {
+    color: #ffffff;
+  }
+  .button_3
+  {
+    color: #ffffff;
+  }
+  .button_4
+  {
+    color: #ffffff;
+  }
+  .button_5
+  {
+    color: #ffffff;
+  }
+  
+  .button_1:hover 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 5px #2c1dff , 0 0 6px #2c1dff , 0 0 5px #2c1dff, 4px 0 5px #2c1dff  , 1px 1px 0 #2c1dff  , -2px -1px 9px #2c1dff  , 0 -1px 0 #2c1dff  , 0 0 0 #2c1dff  ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);  
+  }
+  .button_2:hover 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgb(77,162,252) , 0 0 6px rgb(77,162,252) , 0 0 5px rgb(77,162,252) , 4px 0 5px rgb(77,162,252) , 1px 1px 0 rgb(77,162,252) , -2px -1px 9px rgb(77,162,252) , 0 -1px 0 rgb(77,162,252) , 0 0 0 rgb(77,162,252) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  .button_3:hover 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(153,0,255,1) , -1px 0 6px rgba(153,0,255,1) , 0 0 5px rgba(153,0,255,1) , 4px 0 5px rgba(153,0,255,1) , 1px 1px 0 rgba(153,0,255,1) , -2px -1px 9px rgba(153,0,255,1) , 0 -1px 0 rgba(153,0,255,1) , -1px 0 0 rgba(153,0,255,1) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);  
+  }
+  .button_4:hover 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(238,0,255,1) , -1px 0 6px rgba(238,0,255,1) , 0 0 5px rgba(238,0,255,1) , 4px 0 5px rgba(238,0,255,1) , 1px 1px 0 rgba(238,0,255,1) , -2px -1px 9px rgba(238,0,255,1) , 0 -1px 0 rgba(238,0,255,1) , -1px 0 0 rgba(238,0,255,1) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);  
+  }
+  .button_5:hover 
+  {
+    color: #ffffff;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+    text-shadow: 0 0 5px rgba(255,0,0,1) , -1px 0 6px rgba(255,0,0,1) , 0 0 5px rgba(255,0,0,1) , 4px 0 5px rgba(255,0,0,1) , 1px 1px 0 rgba(255,0,0,1) , -2px -1px 9px rgba(255,0,0,1) , 0 -1px 0 rgba(255,0,0,1) , -1px 0 0 rgba(255,0,0,1) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);  
+  }
+ 
+  
+.blur
+{
+    background-color: #0a0a0a;
+    opacity: 0.95;
+}
+
+ /* Шапка */
+ .header
+ {
+   
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+ }
+ .title
+ {
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgb(56, 126, 238) 33%, rgb(245, 111, 227) 66%, rgb(243, 13, 52));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     
+ }
+
+
+ 
+ .cinema
+{
+   width: 100%;
+   height: 50vh;
+   background:
+   url("https://i.yapx.ru/EdqSR.png") no-repeat;
+   background-position: center;
+   color: white;
+   font-size: 30px;
+   font-family: "PressStart2P-Regular", Helvetica, sans-serif;
+   text-align: center;
+}
+
+.cinema:hover
+{
+    
+   color: white;
+   background:
+       linear-gradient(
+           rgba(0, 0, 0, 0.5), 
+           rgba(0, 0, 0, 0.5)
+       ),
+       url("https://i.yapx.ru/EdqSS.gif") no-repeat;
+       background-size: 100% 100%;
+       background-position: center;
+   transform: scale(1.1);
+   position: relative;
+   transform: 1s;
+    
+}
+.sound
+{
+   color: white;;
+   width: 100%;
+   height: 50vh;
+   background:
+   url("https://i.yapx.ru/EdqSO.jpg") no-repeat;
+   background-position: center;
+   font-size: 30px;
+   font-family: "PressStart2P-Regular", Helvetica, sans-serif;
+   text-align: center;
+}
+.sound:hover
+{
+   color: white;
+   background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.5), 
+         rgba(0, 0, 0, 0.5)
+       ),
+       url("https://i.yapx.ru/EdqSQ.gif") no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+   transform: scale(1.1);
+   position: relative;
+   transform: 1s;
+}
+.game
+{
+   margin-left: 5px;
+   color: white;
+   width: 100%;
+   height: 50vh;
+   background:
+   url("https://i.yapx.ru/EdqSC.png") no-repeat;
+   background-position: center;
+   font-size: 30px;
+   font-family: "PressStart2P-Regular", Helvetica, sans-serif;
+   text-align: center;
+}
+.game:hover
+{
+   color: white;
+   background:
+       linear-gradient(
+           rgba(0, 0, 0, 0.5), 
+           rgba(0, 0, 0, 0.5)
+       ),
+       url("https://i.yapx.ru/EdqSG.gif")  no-repeat;
+       background-size: 100% 100%;
+       background-position: center;
+   transform: scale(1.1);
+   position: relative;
+   transform: 1s;
+}
+/* Текст */
+.h1_item
+{
+  
+  font: normal 30px/normal "PressStart2P-Regular", Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: -60px;
+  margin-top: 10px;
+}
+
+.text
+{
+  font-family: 'Comfortaa', Courier, monospace;
+  line-height: 48px;
+  font-size: 20px;
+  color: #ffffff;
+}
+p
+{
+  margin: 0;
+}
+.upText
+{
+  font-family: 'PressStart2P-Regular', Courier, monospace;
+  font-size: 30px;
+  color: #f000ff;
+}
+.pText
+{
+  font-family: 'Comfortaa', Courier, monospace;
+  line-height: 48px;
+  font-size: 20px;
+  color: #ffffff;
+}
+ 
+ 
