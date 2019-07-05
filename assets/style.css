@@ -363,12 +363,12 @@ h4
   font-size: 14px;
   font-family: 'PressStart2P-Regular', Courier, monospace;
   color: #0a0a0a;
-  margin-right: 18vw;
+  margin-right: 3vw;
   line-height: 50px;
   border-radius: 90px;
   height: 60px;
   width: 350px;
-  background-color: #ff0000;
+  background-color: #00ffff;
 }
 .h2_item {
   color: white;
@@ -417,5 +417,12 @@ h4
   font-family: "PressStart2P-Regular", Helvetica, sans-serif;
   text-align: center;
 }
-
+.tv {
+  height: 100vh;
+  background: url(https://i.yapx.ru/EdqTK.gif) no-repeat;
+  background-size: cover;
+  /* background-position-y: 99%; */
+  text-align: end;
+  background-position-x: 23%;
+}
 }
