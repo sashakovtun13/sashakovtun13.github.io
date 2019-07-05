@@ -209,22 +209,22 @@ li
    }
 
     /* Текст */
-    .h1_item
+    .h2_item
     {
-      
-      font: normal 30px/normal "PressStart2P-Regular", Helvetica, sans-serif;
+      font-family: 'PressStart2P-Regular', Courier, monospace;
+      font-size: 30px;
       color: #ffffff;
       text-align: center;
       margin-bottom: -60px;
       margin-top: 40px;
     }
-    .h2_item
+    .h3_item
     {
       font-family: 'Comfortaa', Courier, monospace;
-      font-size: 30px;
+      font-size: 26px;
       margin: 0 auto;
-      margin-top: 88px;
-      margin-bottom: 48px;
+      margin-top: 45px;
+      margin-bottom: 35px;
       
     }
     p
@@ -236,6 +236,6 @@ li
       margin-top: 48px;
       font-family: 'Comfortaa', Courier, monospace;
       line-height: 48px;
-      font-size: 20px;
+      font-size: 16px;
       color: #ffffff;
     }

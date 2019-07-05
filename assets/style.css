@@ -12,7 +12,7 @@ body
     background-size: cover;
     background-position-y: 100%;
     text-align: end;
-    padding-top: 55vh;
+    
     display: block;
 }
 .tagline
@@ -22,12 +22,12 @@ body
 }
 .but
 {
+  margin-top: 70vh;
   border: 0px;
   font-size: 14px;
   font-family: 'PressStart2P-Regular', Courier, monospace;
   color: #0a0a0a;
   margin-right: 18vw;
-
   line-height: 50px;
   border-radius: 90px;
   height: 60px;
@@ -39,12 +39,12 @@ body
 {
 .but
 {
+  margin-top: 75vh;
   border: 0px;
-  font-size: 7px;
+  font-size: 8px;
   font-family: 'PressStart2P-Regular', Courier, monospace;
   color: #0a0a0a;
   margin-right: 10vw;
-
   line-height: 30px;
   border-radius: 90px;
   height: 40px;
@@ -52,9 +52,6 @@ body
 
 }
 }
-
-
-
 .but:hover
 {
   
@@ -71,7 +68,6 @@ body
   height: 60px;
   background-color: #00ffff;
   border-radius: 90px;
-  
 }
 li
 {
@@ -308,16 +304,23 @@ p
 }
 .upText
 {
+  
   font-family: 'PressStart2P-Regular', Courier, monospace;
   font-size: 30px;
   color: #f000ff;
 }
 .pText
 {
+  
   font-family: 'Comfortaa', Courier, monospace;
   line-height: 48px;
   font-size: 20px;
   color: #ffffff;
+}
+span
+{
+  margin: 0;
+  padding: 0;
 }
  
  
