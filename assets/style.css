@@ -273,11 +273,11 @@ li
 }
 .h2_item
 {
-color: white;
-padding-top: 11%;
-padding-right: 10%;
-font-size: 70px;
-font-family: TV;
+  color: white;
+  padding-top: 11%;
+  padding-right: 10%;
+  font-size: 50px;
+  font-family: PressStart2P-Regular;
 }
 .text
 {
@@ -292,10 +292,11 @@ p
 }
 .upText
 {
-  
   font-family: 'PressStart2P-Regular', Courier, monospace;
   font-size: 30px;
   color: #f000ff;
+  position: relative;
+  top: 4px;
 }
 .pText
 {
