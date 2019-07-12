@@ -2,7 +2,7 @@
 body
 {
     background-color: #0a0a0a ;
-    width: 96%;
+    width: 96vw;
         
 }
 .cinema
@@ -107,7 +107,7 @@ li
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: none;
-    font: normal 20px/normal "Neon_2", Helvetica, sans-serif;
+    font: normal 14px/normal "PressStart2P-Regular", Helvetica, sans-serif;
     color: rgba(255,255,255,1);
     text-decoration: normal;
     text-align: center;
@@ -242,7 +242,7 @@ li
     }
     /* Footer */
 hr {
-  margin-left: 2%;
+  width: 103%;
   border: none;
   background-color: #f000ff; 
   height: 2px;
