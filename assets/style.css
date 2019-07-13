@@ -188,9 +188,10 @@ li
 {
    width: 100%;
    height: 50vh;
-   background:
-   url("https://i.yapx.ru/Ek8kD.png") no-repeat;
+   background:url("https://i.yapx.ru/Ek8kD.png") no-repeat;
+   background-size: cover;
    background-position: center;
+   background-position-y: 0px;
    color: white;
    font-size: 30px;
    font-family: "PressStart2P-Regular", Helvetica, sans-serif;
@@ -206,7 +207,7 @@ li
            rgba(0, 0, 0, 0.5), 
            rgba(0, 0, 0, 0.5)
        ),
-       url("https://i.yapx.ru/EdqSS.gif") no-repeat;
+       url("https://i.yapx.ru/EnQ4a.gif") no-repeat;
        background-size: 100% 100%;
        background-position: center;
    transform: scale(1.1);
@@ -221,6 +222,7 @@ li
    height: 50vh;
    background:
    url("https://i.yapx.ru/Ek8kI.png") no-repeat;
+   background-size: cover;
    background-position: center;
    font-size: 30px;
    font-family: "PressStart2P-Regular", Helvetica, sans-serif;
@@ -234,7 +236,7 @@ li
          rgba(0, 0, 0, 0.5), 
          rgba(0, 0, 0, 0.5)
        ),
-       url("https://i.yapx.ru/EdqSQ.gif") no-repeat;
+       url("https://i.yapx.ru/EnQ4d.gif") no-repeat;
    background-position: center;
    background-size: 100% 100%;
    transform: scale(1.1);
@@ -248,7 +250,8 @@ li
    width: 100%;
    height: 50vh;
    background:
-   url("https://i.yapx.ru/Ek8kF.png") no-repeat;
+   url("https://i.yapx.ru/EnQgG.png") no-repeat;
+   background-size: cover;
    background-position: center;
    font-size: 30px;
    font-family: "PressStart2P-Regular", Helvetica, sans-serif;
@@ -262,7 +265,7 @@ li
            rgba(0, 0, 0, 0.5), 
            rgba(0, 0, 0, 0.5)
        ),
-       url("https://i.yapx.ru/EdqSG.gif")  no-repeat;
+       url("https://i.yapx.ru/EnQ4f.gif")  no-repeat;
        background-size: 100% 100%;
        background-position: center;
    transform: scale(1.1);
@@ -413,6 +416,7 @@ h4
 }
 
   .cinema {
+    margin: 5px;
     width: 100%;
     height: 29vh;
     background: url(https://i.yapx.ru/Ek8kD.png) no-repeat;
@@ -423,7 +427,8 @@ h4
     text-align: center;
 }
 .game{
-   margin-left: 5px;
+   margin: 5px;
+   
    color: white;
    width: 100%;
    height: 29vh;
@@ -435,6 +440,7 @@ h4
 }
 
 .sound {
+  margin: 5px;
   color: white;
   width: 100%;
   height: 29vh;
@@ -483,5 +489,60 @@ h4
 .mfs{
   min-height: 42vh;
 
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .tv {
+    height: 100vh;
+    background: linear-gradient(
+ rgba(0, 0, 0, 0.5), 
+ rgba(0, 0, 0, 0.5)
+ ),
+ url(https://i.yapx.ru/EdqTK.gif) no-repeat;
+    background-size: cover;
+    text-align: end;
+    background-position-x: 23%;
+    background-position-y: -36%;
+  }
+  .but
+  {
+    top: 47%;
+    position: relative;
+    margin-top: 0%;
+    border: 0px;
+    font-size: 11px;
+    font-family: 'PressStart2P-Regular', Courier, monospace;
+    color: #0a0a0a;
+    margin-right: 8vw;
+    line-height: 46px;
+    border-radius: 90px;
+    height: 46px;
+    width: 285px;
+    background-color: #00ffff;
+  }
+  .img_logo
+{
+  width: 275px;
+  margin-top: 18%;
+  margin-right: -35%;
+}
+.palm_item {
+  display: none;
+}
+.mfs{
+  min-height: 85vh;
+  padding-bottom: 44px;
+  padding-top: 58px;
+}
+.cinema {
+  margin: 5px;
+  background-position-y: -29px;
+}
+.game{
+ margin: 5px;
+}
+.sound {
+margin: 5px;
 }
 }
